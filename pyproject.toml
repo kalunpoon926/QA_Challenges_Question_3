@@ -1,0 +1,19 @@
+[project]
+name = "qa-challenges-question-3"
+version = "0.1.0"
+description = "This script fetches market data for a given stock code from SZSE and verifies:"
+authors = [
+    {name = "kalunpoon926",email = "150003429+kalunpoon926@users.noreply.github.com"}
+]
+license = {text = "HTTP 200 status"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "requests (>=2.32.3,<3.0.0)",
+    "pytest (>=8.3.5,<9.0.0)",
+    "pytest-html (>=4.1.1,<5.0.0)"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
