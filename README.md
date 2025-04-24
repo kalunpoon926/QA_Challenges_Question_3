@@ -30,7 +30,7 @@ The test result is logged to console and reported in HTML format.
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/kalunpoon926/QA_Challenges_Question_3.git
 cd QA_Challenges_Question_3
 ```
 ### 2. Install Poetry (if not already installed)
